@@ -27,4 +27,8 @@ def get_calfactors(gauge, cal_date):
     return lm
 
 
+import os
+this_dir, this_filename = os.path.split(__file__)
 
+
+get_calfactors(gauge=2130917246, cal_date=24082018)

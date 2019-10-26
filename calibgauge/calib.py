@@ -24,6 +24,10 @@ def get_calfactors(gauge, cal_date):
 
     lm = stats.linregress(x, y)
 
+    print('Calibration factors for gauge number: ', gauge, '\n',
+        'Intercept: ', lm.intercept, '\n',
+        'Slope:', lm.slope)
+
     return lm
 
 

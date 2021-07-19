@@ -4,7 +4,7 @@
 
 def get_calfactors(gauge, cal_date):
 
-    "Get calibration factors"
+    "Get calibration factors."
 
     import numpy as np
     import os
